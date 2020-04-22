@@ -1,0 +1,11 @@
+<b>🏳 Top 5 viewed country for today!</b>
+
+{% for query in queries -%}
+    💥 {{ query._id }} : {{ query.count }} time(s)
+{% endfor %}
+
+<b>🤯 Top 5 users for today!</b>
+
+{% for user in users -%}
+    💥 {{ user._id }} : {{ user.count }} time(s)
+{% endfor %}
