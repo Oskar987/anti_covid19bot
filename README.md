@@ -1,6 +1,6 @@
 ![anti_covid19bot LOGO](https://habrastorage.org/webt/po/n0/j4/pon0j4qdgvvmhjx_dcd4bp5olt4.png)
 
-*My personal multipurpose chat bot with completely random features*  
+*My personal chat bot with COVID-19 statistics feature*  
 *Can be found at [@anticovid19statbot](https://telegram.me/anticovid19statbot)*
 
 ----------
