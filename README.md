@@ -31,9 +31,9 @@
 - install [Pycharm](https://www.jetbrains.com/pycharm/download/#section=mac)
 - `git clone https://github.com/Oskar987/anti_covid19bot.git`
 - `cd anti_covid19bot`
-- `run Pycharm`
-- `edit environment variables`
-- `change telegram api connection from webhook to long polling`
+- run [Pycharm](https://www.jetbrains.com/pycharm/download/#section=mac)
+- edit environment variables
+- change telegram api connection from webhook to long polling
 
 ```Python WEBHOOK
 # set web hook
@@ -65,7 +65,11 @@ if __name__ == '__main__':
 ```
 - `run project in Pycharm`
 
+
+
 Note that anti_covid19bot will run in development mode. Do not try to use this in production.
+
+
 
 ## Available functions:
 + /start - start communicating with bot
