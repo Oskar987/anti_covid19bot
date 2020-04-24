@@ -27,7 +27,7 @@ class StatisticsService:
         query_string = {'country': country_name}
         headers = {
             'x-rapidapi-host': "covid-193.p.rapidapi.com",
-            'x-rapidapi-key': "db21e48371msh30968ff2ec637d3p19bd08jsn32426bcabdaf"
+            'x-rapidapi-key': self.covid_api_token
         }
         response = requests.request("GET", url, headers=headers, params=query_string)
         return response.json()
